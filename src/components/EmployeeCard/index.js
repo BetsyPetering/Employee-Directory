@@ -11,7 +11,10 @@ function EmployeeCard(props) {
         <ul>
           <li>
             <strong>Name:</strong> {props.name} {props.last}
-          </li>        
+          </li>
+          <li>
+            <strong>Department:</strong> {props.category}
+          </li>
           <li>
             <strong>Occupation:</strong> {props.occupation}
           </li>
@@ -20,7 +23,7 @@ function EmployeeCard(props) {
           </li>
         </ul>
       </div>
-      <span onClick={() => props.removeFriend(props.id)} className="remove">
+      <span onClick={() => props.removeemployee(props.id)} className="remove">
         𝘅
       </span>
     </div>

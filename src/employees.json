@@ -5,6 +5,7 @@
     "last": "Montana",
     "image": "https://live.staticflickr.com/65535/49892566233_049eeca87d_m.jpg",
     "occupation": "Quarterback",
+    "category": "Athlete",
     "location": "San Francisco or Montana?"
   },
   {
@@ -13,6 +14,7 @@
     "last": "Knight",
     "image": "https://live.staticflickr.com/4535/37700427375_67aa3ba3fb_m.jpg",
     "occupation": "Empress of Soul",
+    "category": "Musician",
     "location": "The Grapevine"
   },
   {
@@ -21,6 +23,7 @@
     "last": "Kissinger",
     "image": "https://live.staticflickr.com/121/274991009_1acee54b29_m.jpg",
     "occupation": "Leader of the Illuminati",
+    "category": "Politician",
     "location": "You Wish You Knew"
   },
   {
@@ -29,6 +32,7 @@
     "last": "Nelson",
     "image": "https://live.staticflickr.com/65535/49893424237_86f3f8f218_m.jpg",
     "occupation": "Expert Worrier",
+    "category": "Entertainer",
     "location": "San Fernando Valley"
   },
   {
@@ -37,6 +41,7 @@
     "last": "Vollenweider",
     "image": "https://live.staticflickr.com/4152/5097655354_1f5852eb37_m.jpg",
     "occupation": "String Theorist",
+    "category": "Musician",
     "location": "Switzerland"
   },
   {
@@ -45,6 +50,7 @@
     "last": "Streep",
     "image": "https://live.staticflickr.com/4706/39440283764_a9b9a642ce_m.jpg",
     "occupation": "Movie Star",
+    "category": "Entertainer",
     "location": "The Big Screen"
   },
   {
@@ -53,6 +59,7 @@
     "last": "the Frog",
     "image": "https://live.staticflickr.com/65535/49896035693_28d89df18d_m.jpg",
     "occupation": "Doctor of Happiness",
+    "category": "Life Coach",
     "location": "Hollywood"
   },
   {
@@ -61,6 +68,7 @@
     "last": "Henson",
     "image": "https://live.staticflickr.com/176/412130650_1ae61944f7_m.jpg",
     "occupation": "Genius",
+    "category": "Life Coach",
     "location": "A Better Place"
   },
   {
@@ -69,6 +77,7 @@
     "last": "Tomlin",
     "image": "https://live.staticflickr.com/3087/2829207086_52b4e938b3_m.jpg",
     "occupation": "Operator",
+    "category": "Entertainer",
     "location": "California"
   },
   {
@@ -77,6 +86,7 @@
     "last": "Zimmermann",
     "image": "https://live.staticflickr.com/65535/49893464807_c777a8b7fd_m.jpg",
     "occupation": "Hand Knitter, Inventor, Teacher, Mentor",
+    "category": "Life Coach",
     "location": "Wisconsin"
   },
   {
@@ -84,7 +94,8 @@
     "name": "Chewy",
     "last": "bacca",
     "image": "https://live.staticflickr.com/65535/49896878642_1e2e7e40bb_m.jpg",
-    "occupation": "Friend",
+    "occupation": "employee",
+    "category":"Entertainer",
     "location": "Way Out There"
   },
   {
@@ -93,6 +104,7 @@
     "last": "King",
     "image": "https://live.staticflickr.com/65535/49896580571_b72635ce6a_m.jpg",
     "occupation": "Pianist, Songwriter, Singer",
+    "category": "Musician",
     "location": "Idaho"
   }
 ]

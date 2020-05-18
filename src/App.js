@@ -2,36 +2,50 @@ import React, { Component } from "react";
 import EmployeeCard from "./components/EmployeeCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import friends from "./friends.json";
+import Buttons from "./components/Buttons";
+import employees from "./employees.json";
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
   state = {
-    friends
+    employees
   };
 
-  removeFriend = id => {
-    // Filter this.state.friends for friends with an id not equal to the id being removed
-    const friends = this.state.friends.filter(friend => friend.id !== id);
-    // Set this.state.friends equal to the new friends array
-    this.setState({ friends });
+  sortLast = () => {
+
+    const employees = this.state.employees.sort((a, b) => (a.last > b.last) ? 1 : -1);
+
+    this.setState({ employees });
   };
 
-  // Map over this.state.friends and render a EmployeeCard component for each friend object
+  sortFirst = () => {
+
+    const employees = this.state.employees.sort((a, b) => (a.name > b.name) ? 1 : -1);
+
+    this.setState({ employees });
+  };
+
+  removeemployee = id => {
+    const employees = this.state.employees.filter(employee => employee.id !== id);
+    this.setState({ employees });
+  };
+
   render() {
     return (
       <Wrapper>
         <Title>Employee Directory</Title>
-        {this.state.friends.map(friend => (
+        <Buttons sortLast = {this.sortLast}
+        sortFirst = {this.sortFirst} />
+        {this.state.employees.map(employee => (
           <EmployeeCard
-            removeFriend={this.removeFriend}
-            id={friend.id}
-            key={friend.id}
-            name={friend.name}
-            last={friend.last}
-            image={friend.image}
-            occupation={friend.occupation}
-            location={friend.location}
+            removeemployee={this.removeemployee}
+            id={employee.id}
+            key={employee.id}
+            name={employee.name}
+            last={employee.last}
+            image={employee.image}
+            category={employee.category}
+            occupation={employee.occupation}
+            location={employee.location}
           />
         ))}
       </Wrapper>
